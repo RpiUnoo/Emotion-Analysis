@@ -18,7 +18,7 @@ def load_emotion_model():
 
 class DetectEmotion(object):
     def __init__(self):
-        self.cap = cv2.VideoCapture("test.mp4")
+        self.cap = cv2.VideoCapture("static/test.mp4")
         self.session, self.graph, self.classifier = load_emotion_model()
 
     def __del__(self):
