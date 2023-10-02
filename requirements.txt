@@ -1,0 +1,10 @@
+Flask
+opencv-python
+gunicorn
+Jinja2
+pandas
+numpy
+keras == 2.8.0
+tensorflow-cpu == 2.8.0
+urllib3 == 1.21.1
+protobuf == 3.9.2
